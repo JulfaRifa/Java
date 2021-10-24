@@ -1,0 +1,198 @@
+How a variable of one component is imported in an another component
+what is input type="password"
+what are the different types of <input type>
+how to have aligned labels
+Navigation bootstrap documentation(getbootstrap.com/docs/4.0/getting-started/introduction)
+difference between angular and react
+MVC
+difference between MVC and virtual DOM
+how to fetch values that user enters in textbox/check box/radio button/text field
+difference between REST  API and  SOAP API
+Base Pay, CTC
+what is response entity and request body and why it is used for
+difference between template driven form and reactive form
+difference between basic security and JWT
+how to import an image in angularjs/html
+dirty, touched, pristine, invalid, untouched 
+sorting algorithm
+pollyfills.ts
+
+permutation recursion
+trashbin
+hackerrank profile
+
+number of island
+array - binary search related problem
+System Design
+
+
+
+Java lastest release is SE 16.
+boilerplate code - same set of codes repeated in different pasrt of the application with little or no change. It is bad to have boiler plate code.
+SEO - Search Engine Optimization.
+YAML - Yet Another Markup Language.
+REGULAR EXPRESSION:
+\d -> [0-9]
+\D -> [^0-9] - other than digits 0-9.
+\w -> [A-Za-z0-9]
+\W -> [^A-Za-z0-9]
+\s -> single space which includes the single space in \t or \n.
+\S -> opposite of \s.
+\t
+\n
+\v - vertical long space
++ -> 1 or more occurence of character
+* -> 0 or more occurence of character
+? -> 1 or 0 occurence
+{1} -> once
+{1,} -> one or more occurence of character
+{3,6} -> 3-6 occurence of character
+|a| -> absolute value/positive value.
+
+<input type="text"> - single line of text, can be long.
+<input type="radio" name="course" value="gardening" checked> Gardening
+<input type="radio" name="color" value="blue" disabled> Blue (out of stock) , the radio button is viewed, but cannot be selected. It is disabled.
+<input type="checkbox" checked>
+<input type="color"> - displays the color bar and ask for input color.
+<input type="date"> - gets date input in date format.
+<input type="datetime-local"> - gets input of date and time.
+<input type="month"> - shows the month list and gets input.
+required, readonly constraint like max, min constarint in an input type tag.
+<input type="range"> - displays a scroll bar and gets inout from the scroll bar.
+<input type="time">
+<input type="url">
+<input type="image" alt="login" src=""> - if the image is not displayed due to an error, what is mentioned in alt will be displayed. 
+
+JPA(Java Persistence API)
+JSP(Java Server Pages)
+Java DataBase Connectivity(JDBC)
+AJAX - Asynchronous Javascript And Xml.
+RCA - Root Cause Analysis.
+
+permutation - without repetition.
+Palindrome ex - 3663, 36063
+
+Scanner - slow in data processing, have 1KB char buffer(low size), handles single thread(not synchronous)
+Scanner sc = new Scanner(System.in); sc.nextLine(); sc.nextInt();
+BufferedReader - fast in data processing, have 8KB char buffer(high size), handles multiple threads(synchronous) 
+BufferedReader stores the data into the buffer which makes the data readabilty efficient.
+InputStreamReader reader = new InputStreamReader(System.in);
+BufferedReader b = new BufferedReader(reader);
+or BufferedReader b = new BufferedReader(InputStreamReader(System.in));
+InputStreamReader, BufferedReader are the classes in Java.
+Arrays.sort(); -> O(nlogn)
+    public boolean solve(int[][] intervals) {
+        Arrays.sort(intervals, new java.util.Comparator<int[]>() {
+            public int compare(int[] a, int[] b) {
+                return Integer.compare(a[0], b[0]);
+            }
+        });
+Collections.sort();
+System.in in java means to take input from the keyboard or user.
+StringBuilder/StringBuffer
+String.valueOf() -> converts the value in bracket to String.
+int power=(int)Math.log10(n)+1; -> gives  the number of digits in a number.
+(int)Math.pow(n,power_value) -> gives n to the power of power_value.
+(2 power 31)-1 -> maximum postive integer. -> Integer.MAX_VALUE;
+DECIMALTOBINARY:
+while(n>0){
+            binary[i++]=n%2;
+            n=n/2;
+        }
+list.add(b[i]);
+Collections.sort(list) -> O(nlogn)//ascending order
+Collections.reverse(list) -> descending order of ascending order sorted list.
+c[i]=list.get(i);
+Character.isLowerCase(a.charAt(i));
+Character.isUpperCase(a.charAt(i));
+Character.isDigit(a.charAt(i));
+Math.abs(index) -> makes a negative integer into a positive integer.
+(~(number-1)) -> converts a postive integer into a negative number and converts a negative integer into a positive integer.
+return new int[]{}; -> returns an empty array(empty - without zero)
+return new int[][]{}; -> return an empty two dimensional array.
+left rotation by 3 - {1,2,3,4,5) -> (4,5,1,2,3}
+right rotation by 3 - {1,2,3,4,5} -> {3,4,5,1,2}
+Arrays.sort() -> Quick sort - O(nlogn)
+insertion sort -> O(n)(best case), O(n^2)(worst case)
+blueprint of many object is class.
+real world entity - object
+null is called as reference.
+HashMap - insertion and lookup time complexity - O(1).
+Arrays.equals(arr1, arr2) -> return true if two array is equal.
+Collections.reverse() -> O(n) -> linear time complexity.
+Arrays.sort(arr1, Collections.reverseOrder());//descending order of an integer array or array of string
+Math.ceil(2.2) = 3
+Math.floor(2.2) = 2
+//Collections.sort(list) -> O(nlogn)
+two dimensional array -> row_length=array_name.length, column_length=array_name[0].length;
+StringBuilder strBuilder1=new StringBuilder("abc") -> strBuilder1.setCharAt(iter1,'a') -> replace the character at the position iter1 to a.
+strBuilder1.deleteAtChar(iter1); -> delete the character in stringbuilder at iter1.
+
+Angular have two technique to create form - 1. Template-driven form   2. Reactive form.
+Template driven form - uses FormsModule. logic is driven from template. asynchronous in nature.
+Raect driven form - uses ReactiveFormsModule. logic is available in ts file. synchronous in nature.
+
+C++ compiler - GCC compiler
+
+GIT:
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JulfaRifa/DataBase.git
+git push -u origin main
+
+API - set of definition and protocol for building and integrating application software.
+REST API - an API that follow the constraint of REST architectural pattern and allow for interaction of RESTful web service.
+REST API is an architectural pattern/style for an API that use HTTP method to access data.
+REST API is used as, REST API use less bandwidth.
+
+run rate - number of run/number of over.
+
+CLOUD COMPUTING:
+Cloud computing is a technology(a virtualization based technology) where an application can be created, configured, customized using internet connection.
+Cloud computing have a database, software, hardware, a development platform.
+The term cloud refers to network.
+
+The operations that can be done using cloud computing:
+1. Storage, backup and recovery of data.
+2. Analysis of data.
+3. Host blog and website.
+4. Stream Video and audio.
+5. Develop new application.
+
+WHY CLOUD COMPUTING?
+Earlier, when an IT company is setup, there is a need to setup a server room.
+the server room have database server, mail server, firewall, router, modem, switch, QPS(Query Per Second, How many queries per second can be processed), high net speed, configurable system.
+this requires lot of money, which is high IT infrastructure cost.
+To reduce the complexity in IT infrastructure, Cloud computing is introduced.
+
+ADVANTAGES:
+1. Unlimited storage capacity.
+2. Services in pay as you go model(user uses API to use services in cloud and pays accorsing to the usage of services).
+3. Data backup.
+4. Data recovery.
+5. Data security.
+DISADVANTAGES:
+1. Vendor-lock in - once a vendor uses a cloud, switching to another vendor is complex when another vendor uses different platform.
+2. Internet connectivity
+
+HISTORY OF CLOUD COMPUTING:
+Client-Server computing, then comes distributed computing, then on the basis of did=stributed computing, emerged the cloud computing.
+
+CLOUD COMPUTING ARCHITECTUURE:
+FrontEnd(have client infrastructure)
+|
+Internet
+|
+BackEnd(have database, server, security mechanism, Runtime cloud, application, service, infrastructure).
+COMPONENT OF CLOUD COMPUTING ARCHITECTURE:
+1. Client infrastructure - have GUI to interact with the cloud.
+2. Service - 1. SaaS   2. PaaS   3. IaaS.
+3. Runtime Cloud - provides execution and runtime environment to virtual machines.
+4. Storage - have a huge amount of data.
+5. Infrastructure - have hardware and software components like servers, virtualization software needed for cloud computing.
+6. Management - It handles service, runtime cloud, storage, infrastructure, service, security in backend.
+7. Security - an inbuilt mechanism in cloud computing that have a security mechanism.
+8. Internet - a medium between frontend and backend.
+
