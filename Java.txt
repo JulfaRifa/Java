@@ -1,32 +1,3 @@
-How a variable of one component is imported in an another component
-what is input type="password"
-what are the different types of <input type>
-how to have aligned labels
-Navigation bootstrap documentation(getbootstrap.com/docs/4.0/getting-started/introduction)
-difference between angular and react
-MVC
-difference between MVC and virtual DOM
-how to fetch values that user enters in textbox/check box/radio button/text field
-difference between REST  API and  SOAP API
-Base Pay, CTC
-what is response entity and request body and why it is used for
-difference between template driven form and reactive form
-difference between basic security and JWT
-how to import an image in angularjs/html
-dirty, touched, pristine, invalid, untouched 
-sorting algorithm
-pollyfills.ts
-
-permutation recursion
-trashbin
-hackerrank profile
-
-number of island
-array - binary search related problem
-System Design
-
-
-
 Java lastest release is SE 16.
 boilerplate code - same set of codes repeated in different pasrt of the application with little or no change. It is bad to have boiler plate code.
 SEO - Search Engine Optimization.
